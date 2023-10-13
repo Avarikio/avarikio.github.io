@@ -4,9 +4,17 @@ body {
 }
 h1 {
   color: rgb(88, 88, 93);
-  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+  border-style: none none solid none
 }
 p {
   color: rgb(99, 101, 245);
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif
+}
+nav {
+  color: rgb(88, 88, 93);
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px
 }
