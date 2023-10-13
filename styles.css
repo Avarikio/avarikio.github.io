@@ -4,7 +4,9 @@ body {
 }
 h1 {
   color: rgb(88, 88, 93);
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif
 }
 p {
   color: rgb(99, 101, 245);
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif
 }
