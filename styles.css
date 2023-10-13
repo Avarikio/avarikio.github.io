@@ -25,7 +25,9 @@ p {
   color: rgb(93, 93, 93);
   background-color: lightcyan;
   padding: 5px;
-  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif
+  font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
+  border-style: none;
+  border-radius: 10px;
 }
 
 nav {
@@ -38,7 +40,7 @@ nav {
 }
 
 nav a {
-  float: left;
+  display: inline-block;
   text-align: center;
   padding: 12px;
   color: rgb(81, 81, 81);
@@ -51,4 +53,13 @@ nav a:hover {
   border-color: lightskyblue;
   background-color: lightcyan;
   border-radius: 15px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;
 }
