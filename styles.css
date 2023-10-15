@@ -8,7 +8,7 @@ h1 {
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   border-style: none none solid none;
-  padding-top: 30px;
+  padding-top: 5px;
   padding-bottom: 3px;
   text-align: center;
 }
@@ -33,7 +33,7 @@ p {
 nav {
   color: rgb(88, 88, 93);
   font-family: "Verdana", Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -62,4 +62,13 @@ nav a:hover {
   height: 50px;
   margin-right: 20px;
   margin-top: 15px;
+}
+
+footer {
+  vertical-align: bottom
+
+}
+
+iframe {
+  align-self: center
 }
