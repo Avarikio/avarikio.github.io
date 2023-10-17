@@ -55,6 +55,30 @@ nav a:hover {
   border-radius: 15px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightcyan;
+  align-self: center;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  border-style: solid;
+  border-color: lightskyblue;
+  background-color: lightcyan;
+  border-radius: 15px;
+  display: block;
+}
+
 .logo {
   display: inline-block;
   vertical-align: top;
